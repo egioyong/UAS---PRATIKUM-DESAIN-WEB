@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaeaea;
+    background-image: url("./images/body.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+}
+
+.thistime #thistime {
+    position: fixed;
+    top: 40px;
+    right: 40px;
+}
+
+
+
+.logo img {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 20px;
+    left: 40px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    margin: 50px 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.display {
+    margin-top: 20px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+/* Peserta */
+.peserta img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.peserta0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+.peserta{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.image {
+    width: 180px;
+    height: 180px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+h1.nama {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px; 
+}
+
+
+#display1,
+#display2,
+#display3,
+#display4,
+#display5 {
+    font-size: 30px;
+    width: 300px;
+    line-height: 100px;
+    height: 100px;
+}
+hr.new4 {
+    border: 1px solid red;
+}
+P{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.github{
+    text-align: center;
+}
